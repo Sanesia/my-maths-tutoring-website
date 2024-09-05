@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Maths Tutoring</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .intro {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .services, .testimonials, .contact {
+            margin: 20px 0;
+        }
+        .service-card, .testimonial-card {
+            background-color: #fff;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Online Maths Tutoring</h1>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="intro">
+    <h2>Expert Maths Tutoring from the Comfort of Your Home</h2>
+    <p>Boost your grades and confidence in maths with personalized, one-on-one online tutoring tailored to your needs.</p>
+</section>
+
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-card">
+        <h3>One-on-One Tutoring</h3>
+        <p>Private tutoring sessions designed to focus on individual needs, whether it's exam preparation or mastering complex topics.</p>
+    </div>
+    <div class="service-card">
+        <h3>Group Sessions</h3>
+        <p>Small group sessions available for students looking to learn in a collaborative environment while keeping costs down.</p>
+    </div>
+</section>
+
+<section id="testimonials" class="testimonials">
+    <h2>What Our Students Say</h2>
+    <div class="testimonial-card">
+        <p>"Thanks to these amazing lessons, I went from a C to an A in just a few months!" - Sarah, Year 11</p>
+    </div>
+    <div class="testimonial-card">
+        <p>"The tutor was so patient and helped me finally understand topics I struggled with for years." - James, A-Level Student</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <p>Email: <a href="mailto:maths.tutor@example.com">maths.tutor@example.com</a></p>
+    <p>Location: Online, Worldwide</p>
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Online Maths Tutoring</p>
+</footer>
+
+</body>
+</html>
